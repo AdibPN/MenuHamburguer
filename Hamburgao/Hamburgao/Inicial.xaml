@@ -1,12 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Hamburgao.Inicial">
+             xmlns:d="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Hamburgao.Inicial"
+             BackgroundColor="Red"
+             Title="Curso DS">
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Olá! que prazer em te ajudar!! Este App irá te guiar como Curso Técnico de Desenvolvimento de Sistemas"
+                        FontSize="Medium"
+                        Style="{StaticResource textoCentralizado}" />
+                
+                <Label Text="O curso tecnico integrado ao médio tem 3 anos de duração. Nós, alunos, pensamos em desenvolver este App para vos explicar o conteúdo. Que tal deixar que a própria tecnologia se apresente? Rs"
+                        FontSize="Medium"
+                        Style="{StaticResource textoCentralizado}" />
+
+                <Label Text="Em breve este App estará disponível para Play Store para dowload"
+                        FontSize="Medium"
+                        Style="{StaticResource textoCentralizado}" />
+
+                <Image Source="programacao" />
+                
+                <Label Text="OBS: Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva"
+                       Style="{StaticResource textoCentralizado}" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

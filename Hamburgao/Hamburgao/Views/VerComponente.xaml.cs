@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hamburgao.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,10 @@ namespace Hamburgao.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class VerComponente : ContentPage
     {
-        public VerComponente()
+        public VerComponente(Componentes c)
         {
             InitializeComponent();
+            BindingContext = c;
         }
     }
 }

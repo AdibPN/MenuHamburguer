@@ -29,7 +29,7 @@ namespace Hamburgao
             }
             catch(Exception ex)
             {
-                await DisplayAlert("Ops!", ex.Message, "OK");
+                await DisplayAlert("IXI", ex.Message, "OK");
             }
         }
 
@@ -44,7 +44,7 @@ namespace Hamburgao
             }
             catch(Exception ex)
             {
-                await DisplayAlert("Ops!", ex.Message, "OK");
+                await DisplayAlert("IXI", ex.Message, "OK");
             }
         }
 
@@ -74,7 +74,7 @@ namespace Hamburgao
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Ops!", ex.Message, "OK");
+                await DisplayAlert("IXI", ex.Message, "OK");
             }
         }
 
@@ -89,7 +89,7 @@ namespace Hamburgao
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Ops!", ex.Message, "OK");
+                await DisplayAlert("IXI", ex.Message, "OK");
             }
         }
 
@@ -104,7 +104,7 @@ namespace Hamburgao
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Ops!", ex.Message, "OK");
+                await DisplayAlert("IXI", ex.Message, "OK");
             }
         }
     }

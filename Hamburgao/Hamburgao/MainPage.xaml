@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:d="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  mc:Ignorable="d"
                   x:Class="Hamburgao.MainPage">
 
     <MasterDetailPage.Master>
@@ -21,17 +24,17 @@
 
                 <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
 
-                    <Button Text="Inicial" Clicked="Open_Inicial" Style="{ StaticResource BotaoVermelho }"/>
+                    <Button Text="Inicial" Clicked="Open_Inicial" Style="{ StaticResource botaoVermelho }"/>
 
-                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{ StaticResource BotaoCinza}"/>
+                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{ StaticResource botaoCinza}"/>
 
-                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{ StaticResource BotaoCinza}"/>
+                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{ StaticResource botaoCinza}"/>
 
-                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{ StaticResource BotaoCinza}"/>
+                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{ StaticResource botaoCinza}"/>
 
-                    <Button Text="Vestibulinho" Clicked="Open_Vestibulinho" Style="{ StaticResource BotaoVermelho}"/>
+                    <Button Text="Vestibulinho" Clicked="Open_Vestibulinho" Style="{ StaticResource botaoVermelho}"/>
 
-                    <Button Text="Contato" Clicked="Open_Contato" Style="{ StaticResource BotaoVermelho}"/>
+                    <Button Text="Contato" Clicked="Open_Contato" Style="{ StaticResource botaoVermelho}"/>
                 </StackLayout>
             </Grid>
         </ContentPage>

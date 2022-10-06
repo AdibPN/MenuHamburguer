@@ -1,12 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Hamburgao.Views.ComponentesPrimeiro">
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Hamburgao.Views.ComponentesPrimeiro"
+             BackgroundColor="Red"
+             Title="Disciplina do primeiro módulo">
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout VerticalOptions="Center" Padding="10">
+
+                <Button Text="Design digital" Clicked="Button_Clicked" Style="{StaticResource botaoCinza}" />
+                <Button Text="Programação de algoritimos"  Clicked="Button_Clicked1" Style="{StaticResource botaoCinza}" />
+                <Button Text="Banco de dados I"  Clicked="Button_Clicked2" Style="{StaticResource botaoCinza}" />
+                <Button Text="Análise de sistemas"  Clicked="Button_Clicked3" Style="{StaticResource botaoCinza}" />
+                <Button Text="Fundamentos da informática"  Clicked="Button_Clicked4" Style="{StaticResource botaoCinza}" />
+                <Button Text="Programação Web I"  Clicked="Button_Clicked1" Style="{StaticResource botaoCinza}" />
+                
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

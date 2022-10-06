@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Hamburgao.Models
 {
-    internal class Componentes
+    public class Componentes
     {
         public string Nome { get; set; }
 
