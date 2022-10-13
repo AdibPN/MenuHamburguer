@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="Hamburgao.Views.ComponentesPrimeiro"
              BackgroundColor="Red"
-             Title="Disciplina do primeiro módulo">
+             Title="Primeiro série">
     
     <ContentPage.Content>
         <ScrollView>
@@ -17,7 +17,7 @@
                 <Button Text="Banco de dados I"  Clicked="Button_Clicked2" Style="{StaticResource botaoCinza}" />
                 <Button Text="Análise de sistemas"  Clicked="Button_Clicked3" Style="{StaticResource botaoCinza}" />
                 <Button Text="Fundamentos da informática"  Clicked="Button_Clicked4" Style="{StaticResource botaoCinza}" />
-                <Button Text="Programação Web I"  Clicked="Button_Clicked1" Style="{StaticResource botaoCinza}" />
+                <Button Text="Programação Web I"  Clicked="Button_Clicked5" Style="{StaticResource botaoCinza}" />
                 
             </StackLayout>
         </ScrollView>
