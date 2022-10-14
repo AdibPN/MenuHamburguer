@@ -1,11 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
+using Hamburgao.Models;
 
 namespace Hamburgao.Views
 {
@@ -15,6 +20,18 @@ namespace Hamburgao.Views
         public Vestibulinho()
         {
             InitializeComponent();
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                Device.OpenUri(new Uri("htt´://www.vestibulinhoetec.com.br"));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("IXI", ex.Message, "OK");
+            }
         }
     }
 }

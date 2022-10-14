@@ -11,12 +11,23 @@
         <StackLayout VerticalOptions="CenterAndExpand">
             <ScrollView>
             <StackLayout Padding="20">
-                
-            <Label Text="Welcome to Xamarin.Forms!"
-               
-                   
-                   
-        </StackLayout>
+
+                    <Label Text="{Binding Nome}" HorizontalTextAlignment="Center" FontAttributes="Bold"
+                   Margin="0, 0, 0, 30" TextColor="#AB0209" FontSize="Title" />
+
+                    <Label Text="Atribuições e responsabilidades" HorizontalTextAlignment="Center"
+                   TextColor="#F3F2F0" BackgroundColor="#3E474C"  FontSize="Large" />
+
+                    <Label Text="{Binding AtribuiçõesResponsabilidades}"
+                           Margin="0, 0, 0, 30" FontSize="Medium" HorizontalTextAlignment="Center" />
+
+                    <Label Text="Valores e atitudes" HorizontalTextAlignment="Center"
+                   TextColor="#F3F2F0" BackgroundColor="#3E474C"  FontSize="Large" />
+
+                    <Label Text="{Binding ValoresAtitudes}"
+                           FontSize="Medium" HorizontalTextAlignment="Center" />
+
+                </StackLayout>
         </ScrollView>
         </StackLayout>
     </ContentPage.Content>
