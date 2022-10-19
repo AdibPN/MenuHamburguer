@@ -2,11 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Hamburgao.Views.Vestibulinho"
-             Title="Vestibulinho">
+             Title="Vestibulinho"
+             BackgroundColor="#3E474C">
+    
+    
     <ContentPage.Content>
+        
         <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
             <Label Text="FIQUE ATENTO ÀS DATAS, ACESSE O SITE:"
                    HorizontalTextAlignment="Center" 
+                   TextColor="White"
                    FontAttributes="Bold" Margin="10" FontSize="Title" />
 
             <Button Text="https://www.vestibulinhoetec.com.br/home/"
