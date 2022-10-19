@@ -13,19 +13,23 @@
             <StackLayout Padding="10">
 
                 <Label Text="SEJA MUITO BEM-VINDO!!"
+                       TextColor="Black"
                         FontSize="Title"
                         Style="{StaticResource textoCentralizado}" />
 
                 <Label Text="Olá! que prazer em te ajudar!! Este App irá te guiar com o Curso Técnico de Desenvolvimento de Sistemas"
                         FontSize="Medium"
+                       TextColor="Black"
                         Style="{StaticResource textoCentralizado}" />
                 
                 <Label Text="O curso tecnico integrado ao médio tem 3 anos de duração. Nós, alunos, pensamos em desenvolver este App para vos explicar o conteúdo. Que tal deixar que a própria tecnologia se apresente? Rs."
                         FontSize="Medium"
+                       TextColor="Black"
                         Style="{StaticResource textoCentralizado}" />
 
                 <Label Text="Em breve este App estará disponível para Play Store para dowload"
                         FontSize="Medium"
+                       TextColor="Black"
                         Style="{StaticResource textoCentralizado}" />
 
                 
