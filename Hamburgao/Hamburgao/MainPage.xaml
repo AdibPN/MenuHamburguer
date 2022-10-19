@@ -19,7 +19,7 @@
                              Padding="10"
                              Margin="10"
                              HorizontalOptions="FillAndExpand">
-                    <Image Source="logo_etec" Aspect="AspectFit"/>
+                    <Image x:Name="ETEC" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" WidthRequest="500" HeightRequest="120" />
                 </StackLayout>
 
                 <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">

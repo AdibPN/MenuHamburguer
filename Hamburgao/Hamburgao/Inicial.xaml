@@ -16,7 +16,7 @@
                         FontSize="Title"
                         Style="{StaticResource textoCentralizado}" />
 
-                <Label Text="Olá! que prazer em te ajudar!! Este App irá te guiar como Curso Técnico de Desenvolvimento de Sistemas"
+                <Label Text="Olá! que prazer em te ajudar!! Este App irá te guiar com o Curso Técnico de Desenvolvimento de Sistemas"
                         FontSize="Medium"
                         Style="{StaticResource textoCentralizado}" />
                 
@@ -32,7 +32,7 @@
                 <Label Text="OBS: Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva"
                        Style="{StaticResource textoCentralizado}" />
 
-                <Image x:Name="ETEC" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+                <Image x:Name="ETEC" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" WidthRequest="300" HeightRequest="300" />
 
             </StackLayout>
         </ScrollView>

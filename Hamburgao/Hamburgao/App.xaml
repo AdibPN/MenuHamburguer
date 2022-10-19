@@ -27,8 +27,14 @@
 
             </Style>
 
-                
-            
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#AB0209"/>
+                <Setter Property="BarTextColor" Value="#FFF"/>
+            </Style>
+
+
+
+
         </ResourceDictionary>
 
 

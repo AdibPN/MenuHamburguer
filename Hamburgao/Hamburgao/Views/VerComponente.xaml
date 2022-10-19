@@ -10,12 +10,12 @@
             <StackLayout Padding="20">
 
                     <Label Text="{Binding Nome}" HorizontalTextAlignment="Center" FontAttributes="Bold"
-                   Margin="0, 0, 0, 30" TextColor="#AB0209" FontSize="Title" />
+                   Margin="0, 0, 0, 30" TextColor="White" FontSize="Title" />
 
                     <Label Text="Atribuições e responsabilidades" HorizontalTextAlignment="Center"
                    TextColor="#F3F2F0" BackgroundColor="#3E474C"  FontSize="Large" />
 
-                    <Label Text="{Binding AtribuiçõesResponsabilidades}"
+                    <Label Text="{Binding AtribuicoesResponsabilidades}"
                            Margin="0, 0, 0, 30" FontSize="Medium" HorizontalTextAlignment="Center" />
 
                     <Label Text="Valores e atitudes" HorizontalTextAlignment="Center"
