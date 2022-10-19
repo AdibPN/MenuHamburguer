@@ -20,7 +20,7 @@
                         FontSize="Medium"
                         Style="{StaticResource textoCentralizado}" />
                 
-                <Label Text="O curso tecnico integrado ao médio tem 3 anos de duração. Nós, alunos, pensamos em desenvolver este App para vos explicar o conteúdo. Que tal deixar que a própria tecnologia se apresente? Rs"
+                <Label Text="O curso tecnico integrado ao médio tem 3 anos de duração. Nós, alunos, pensamos em desenvolver este App para vos explicar o conteúdo. Que tal deixar que a própria tecnologia se apresente? Rs."
                         FontSize="Medium"
                         Style="{StaticResource textoCentralizado}" />
 
