@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 
 using Hamburgao.Models;
 
+
 namespace Hamburgao.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]

@@ -5,12 +5,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Hamburgao.Inicial"
-             BackgroundColor="Red"
+             BackgroundColor="White"
              Title="Curso DS">
 
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="10">
+
+                <Label Text="SEJA MUITO BEM-VINDO!!"
+                        FontSize="Title"
+                        Style="{StaticResource textoCentralizado}" />
+
                 <Label Text="Olá! que prazer em te ajudar!! Este App irá te guiar como Curso Técnico de Desenvolvimento de Sistemas"
                         FontSize="Medium"
                         Style="{StaticResource textoCentralizado}" />
@@ -23,10 +28,12 @@
                         FontSize="Medium"
                         Style="{StaticResource textoCentralizado}" />
 
-                <Image Source="programacao" />
                 
                 <Label Text="OBS: Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva"
                        Style="{StaticResource textoCentralizado}" />
+
+                <Image x:Name="ETEC" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -1,18 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
              x:Class="Hamburgao.Views.Vestibulinho"
              Title="Vestibulinho">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
             <Label Text="FIQUE ATENTO ÀS DATAS, ACESSE O SITE:"
-                   HorizontaTextAlignment="Center" 
+                   HorizontalTextAlignment="Center" 
                    FontAttributes="Bold" Margin="10" FontSize="Title" />
 
-            <Button Text="www.vestibulinhoetec.com.br"
+            <Button Text="https://www.vestibulinhoetec.com.br/home/"
                     Style="{StaticResource botaoVermelho}" Clicked="Button_Clicked" />
 
         </StackLayout>
