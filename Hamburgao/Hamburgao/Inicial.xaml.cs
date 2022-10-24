@@ -15,7 +15,7 @@ namespace Hamburgao
         public Inicial()
         {
             InitializeComponent();
-            ETEC.Source = ImageSource.FromResource("Hamburgao.imagens.download.png");
+            DS.Source = ImageSource.FromResource("Hamburgao.imagens.DS.jpg");
         }
     }
 }

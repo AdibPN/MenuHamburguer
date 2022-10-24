@@ -19,7 +19,8 @@ namespace Hamburgao
             InitializeComponent();
 
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
-            ETEC.Source = ImageSource.FromResource("Hamburgao.imagens.download.png");
+            LOGO.Source = ImageSource.FromResource("Hamburgao.imagens.logo.jpg");
+
         }
 
         private async void Open_Inicial(object sender, EventArgs e)

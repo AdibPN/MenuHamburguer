@@ -12,7 +12,7 @@
         <ScrollView>
             <StackLayout Padding="10">
 
-                <Label Text="SEJA MUITO BEM-VINDO!!"
+                <Label Text="SEJA MUITO BEM-VINDO(A)!!"
                        TextColor="Black"
                         FontSize="Title"
                         Style="{StaticResource textoCentralizado}" />
@@ -36,7 +36,7 @@
                 <Label Text="OBS: Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva"
                        Style="{StaticResource textoCentralizado}" />
 
-                <Image x:Name="ETEC" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" WidthRequest="300" HeightRequest="300" />
+                <Image x:Name="DS" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" WidthRequest="400" HeightRequest="400" />
 
             </StackLayout>
         </ScrollView>

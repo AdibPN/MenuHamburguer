@@ -12,11 +12,19 @@
 
   <ItemGroup>
     <None Remove="imagens\download.png" />
+    <None Remove="imagens\DS.jpg" />
+    <None Remove="imagens\logo.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="imagens\DS.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="imagens\download.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imagens\logo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
 
